@@ -5,10 +5,10 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the model and vectorizer
-with open('/Users/VinayakGupta2/Downloads/trained_model.sav', 'rb') as f:
+with open('Models/trained_model.sav', 'rb') as f:
     loaded_model = pickle.load(f)
 
-with open('/Users/VinayakGupta2/Downloads/vectorizer.pkl', 'rb') as f:
+with open('Models/vectorizer.pkl', 'rb') as f:
     vectorizer = pickle.load(f)
 
 
